@@ -1,0 +1,109 @@
+ /* To identify any selector easily, use outline: 1px solid red; */
+
+ /* Extra-Small Screens - Default Styling */
+
+/* Body */
+body {
+    margin: .5rem;
+    background-color: #93b8d7;
+    color: white;
+}
+
+/* Links */
+a:link {
+    color: white;
+    font-size: 2.5em;
+    padding-right: .5em;
+}
+#social-links {
+    display: none;
+}
+
+/* Main */
+main {
+text-align: center;
+font-family: "Kaushan Script", Papyrus;
+margin-top: 23vh;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem
+    margin-top 2em;
+}
+
+/* Footer*/
+footer {
+    display: none;
+}
+
+/* Media Query - 598px */
+@media(min-width: 598px) {
+
+/* Links*/
+#hamburger-menu {
+    display: none;
+}
+#social-links {
+    display: inline;
+}
+}
+
+/* Media Query - 768px */
+@media(min-width: 768px) {
+
+/* Body*/
+body {
+    background-image: url("splash-md.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Main*/
+main {
+    text-shadow: 1px 1px #153c43;
+}
+
+/* Footer*/
+footer {
+    display: inline;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+}
+
+/* Media Query - 992px */
+@media(min-width: 992px) {
+ 
+/* Body */   
+body {
+    background-image: url("splash-lg.jpg");
+}
+
+/* Links */
+a:link {
+    font-size: 1.5rem;
+}
+
+/* Main */
+h1 {
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 3rem; 
+}
+}
+
+/* Media Query - 1200px */
+@media(min-width: 12002px) {
+
+/* Body */
+body {
+    background-image: url("splash-xl.jpg");
+}
+}
