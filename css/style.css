@@ -1,8 +1,64 @@
-/* Extra-Small Screens */
+ /* To identify any selector easily, use outline: 1px solid red; */
 
+
+
+ /* Extra-Small Screens - Default Styling */
+
+/* Extra-Small Screens - Body */
 body {
     margin: .5rem;
     background-color: #93b8d7;
     color: white
 }
 
+/*  Extra-Small Screens - Links */
+a:link {
+    color: white;
+    font-size: 2.5em;
+    padding-right: .5em;
+}
+#social-links {
+    display: none;
+}
+
+/* Extra-Small Screens - Main */
+
+main {
+text-align: center;
+font-family: "Kaushan Script", Papyrus;
+margin-top: 23vh;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem
+    margin-top 2em;
+}
+
+/* Extra-Small Screens - Footer*/
+
+footer {
+    display: none;
+}
+
+/* Media Query - 598px */
+@media(min-width: 598px) {
+
+#hamburger-menu {
+    display: none;
+}
+
+#social-links {
+    display: inline;
+}
+
+}
+
+/* Media Query - 768px */
+@media(min-width: 768px) {
+
+    
+}
